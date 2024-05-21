@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"]:focus ~ .input-text, input[type="password"]:focus ~ .input-text {
+    @apply text-gray-950 text-lg  transform -translate-x-4 -translate-y-5; /* Remove or adjust -translate-y */
+  }
+
+ 
